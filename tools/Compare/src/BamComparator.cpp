@@ -1,4 +1,4 @@
-*****************************************************************************
+/*****************************************************************************
  *   LRez - Playing with linked reads
  *   
  *   BamComparator : Counts the common barcodes of regions from bam files
