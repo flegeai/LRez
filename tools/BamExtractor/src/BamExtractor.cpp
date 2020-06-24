@@ -141,7 +141,7 @@ int main(int argc, char* argv[]) {
 				//map<string, bool>::iterator itr
 				//for (itr = barcode_map.begin(); itr != barcode_map.end(); ++itr) {
         		//cout << itr->first << endl;
-        }
+        		//}
         hts_itr_destroy(iter);
         hts_idx_destroy(idx);
         bam_destroy1(aln);
