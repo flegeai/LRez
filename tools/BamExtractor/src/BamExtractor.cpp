@@ -86,7 +86,6 @@ int main(int argc, char* argv[]) {
 										i++;
 								}
 								// Mode non unique TODO: ajouter une option
-								cout << "Hello" << endl
 								cout<< barcode <<endl;
 								barcode_map[barcode]=true;
 						}
