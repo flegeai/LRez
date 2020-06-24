@@ -1,5 +1,5 @@
 /*****************************************************************************
- *   LRez - Playing with linked reads
+ *   LRez  Playing with linked reads
  *   
  *   BamExtractor : extract barcodes from a bam file
  *   Copyright (C) 2020  INRAE
@@ -85,7 +85,9 @@ int main(int argc, char* argv[]) {
 										barcode+=*(bxtag+i);
 										i++;
 								}
-							//	cout<< barcode <<endl;
+								// Mode non unique TODO: ajouter une option
+								cout << "Hello" << endl
+								cout<< barcode <<endl;
 								barcode_map[barcode]=true;
 						}
 						else { // the barcode is in the sequence
@@ -129,14 +131,17 @@ int main(int argc, char* argv[]) {
 								  }
 									//cout << "\tSeq: " << seq << endl;
 									//cout << "\tBarcode: " << barcode << endl;
+								  	// Mode non unique TODO: ajouter une option
+									cout<< barcode <<endl;
 									barcode_map[barcode]=true;
 								}
 
 						}
 					}
-				map<string, bool>::iterator itr;
-				for (itr = barcode_map.begin(); itr != barcode_map.end(); ++itr) {
-        		cout << itr->first << endl;
+				// MOde non unique TOTO ajouter une option
+				//map<string, bool>::iterator itr
+				//for (itr = barcode_map.begin(); itr != barcode_map.end(); ++itr) {
+        		//cout << itr->first << endl;
         }
         hts_itr_destroy(iter);
         hts_idx_destroy(idx);
