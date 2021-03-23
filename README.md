@@ -1,5 +1,7 @@
 # LRez - playing with 10X fastq and bam files 
 
+***A new and more efficient version of the tools is available at <http://github.com/morispi/LREz>***
+
 [![License](http://img.shields.io/:license-affero-blue.svg)](http://www.gnu.org/licenses/agpl-3.0.en.html)
 
 LRez proposes few tools for working with 10x barcoded reads :
